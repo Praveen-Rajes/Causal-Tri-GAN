@@ -1,0 +1,36 @@
+{
+  "checkpoint": "outputs/checkpoints/phase3_epoch30.pt",
+  "truncation_psi": 0.7,
+  "FID": 26.277181847727917,
+  "oracle_auc_mean": 0.5338104515255145,
+  "oracle_auc_per_class": {
+    "No Finding": 0.5,
+    "Enlarged Cardiomediastinum": 0.5189601796551726,
+    "Cardiomegaly": 0.2985113635670008,
+    "Lung Opacity": 0.6218063291047928,
+    "Lung Lesion": 0.669016308024054,
+    "Edema": 0.7741028755592722,
+    "Consolidation": 0.6246202387300728,
+    "Pneumonia": 0.7732552622773524,
+    "Atelectasis": 0.34532521659228144,
+    "Pneumothorax": 0.5201192214710773,
+    "Pleural Effusion": 0.2718322011464076,
+    "Pleural Other": 0.5,
+    "Fracture": 0.555797125229719,
+    "Support Devices": 0.5
+  },
+  "sufficiency_score": 0.7657292091250419,
+  "necessity_score": 0.9786651167475561,
+  "mean_sparsity": 0.0757049150812398,
+  "g3_evaluation": {
+    "g3_available": true,
+    "g3_mode": "impression",
+    "num_reports": 10,
+    "avg_report_length_words": 19.1,
+    "sample_reports": [
+      "1. right lower lobe pneumonia. 2. small right pleural effusion.",
+      "of the right - sided picc line is unchanged. there is no pneumothorax. small bilateral pleural effusions are stable.",
+      "1. no acute cardiopulmonary process. 2. apparent leftward deviation of the trachea at the thoracic inlet, which may be due to right - sided thyroid enlargement."
+    ]
+  }
+}
